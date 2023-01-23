@@ -1,0 +1,13 @@
+#updates img {
+    max-width: 100%;
+}
+
+#featured-news {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card {
+    white-space: normal;
+    background-color: #f7f6f6;
+}

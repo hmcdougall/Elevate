@@ -1,0 +1,17 @@
+#updates img {
+    max-width: 100%;
+}
+
+#featured-photos {
+    max-width: 60%;
+    margin: auto;
+}
+
+#featured-news {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.card {
+    white-space: normal;
+}
