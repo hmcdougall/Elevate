@@ -11,3 +11,7 @@
     white-space: normal;
     background-color: #f7f6f6;
 }
+
+p {
+    text-align: left;
+}
