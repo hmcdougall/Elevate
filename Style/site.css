@@ -1,5 +1,5 @@
 .header {
-    background-color: #c9f1fd;
+    background-color: #001489;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -10,21 +10,28 @@ h2.head, h5.head {
 }
 
 .header .navbar {
-    background-color: #c9f1fd;
+    background-color: #001489;
 }
 
 img {
     border-radius: 15px;
 }
 
+.title {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 550;
+    font-size: 55px;
+}
+
 h2, h5, h4 {
-    color: #033076;
+    color: #001489;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 550;
 }
 
 .section {
-    padding: 40px 20px;
+    padding: 40px 10px;
     text-align: center;
 }
 
@@ -48,6 +55,10 @@ footer {
     margin: auto;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
 .col {
     display: inline-block;
 }
@@ -58,4 +69,30 @@ html {
 
 body {
     background-color: white;
+}
+
+.header2 {
+    background-image: url("../Photos/SkateZoom.jpeg");
+    background-color: #c2ebf6;
+    background-size: cover;
+    padding-top: 1%;
+}
+
+.header2 .statement {
+    text-align: center;
+    padding: 1% 12%;
+    background-color: white;
+    font-size: 35px;
+}
+
+.header2 nav {
+    background-color: #e6e6e6;
+}
+
+.header2 .navbar-nav .nav-link {
+    color: #001489;
+}
+
+footer .navbar-nav .nav-link {
+    color: #001489;
 }

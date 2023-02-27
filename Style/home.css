@@ -1,12 +1,3 @@
-#updates img {
-    max-width: 100%;
-}
-
-#featured-photos {
-    max-width: 60%;
-    margin: auto;
-}
-
 #featured-news {
     overflow-x: auto;
     white-space: nowrap;
@@ -14,4 +5,20 @@
 
 .card {
     white-space: normal;
+}
+
+.dedication {
+    background-image: url("../Photos/HaydenSkates.jpeg");
+    background-color: #c2ebf6;
+    background-size: cover;
+}
+
+.quote {
+    padding-top: 15%;
+    padding-bottom: 8%;
+    font-size: 40px;
+}
+
+.row {
+    padding-top: 10%;
 }

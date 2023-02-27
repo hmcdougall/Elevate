@@ -1,10 +1,9 @@
-#updates img {
-    max-width: 100%;
+#mission img {
+    max-width: 90%;
 }
 
-#featured-news {
-    overflow-x: auto;
-    white-space: nowrap;
+#mission {
+    padding-top: 5%;
 }
 
 .card {
@@ -12,6 +11,28 @@
     background-color: #f7f6f6;
 }
 
-p {
+#mission p {
     text-align: left;
+}
+
+h2 {
+    padding-bottom: 3%;
+    font-size: 45px;
+}
+
+h3 {
+    color: #001489;
+    font-weight: 550;
+    font-size: 35px;
+}
+
+p {
+    color: #001489;
+    font-size: 17px;
+}
+
+.section h5 {
+    font-weight: 500;
+    padding-bottom: 2%;
+    font-size: 25px;
 }
