@@ -96,3 +96,11 @@ body {
 footer .navbar-nav .nav-link {
     color: #001489;
 }
+
+footer p {
+    color: #7a7a7a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 0%;
+}

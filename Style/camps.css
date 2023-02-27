@@ -3,29 +3,6 @@
     margin: auto;
 }
 
-.header2 {
-    background-image: url("../Photos/SkateZoom.jpeg");
-    background-color: #c2ebf6;
-    background-size: cover;
-    padding-top: 1%;
-}
-
-.statement {
-    text-align: center;
-    padding: 1% 12%;
-    background-color: white;
-    font-size: 35px;
-}
-
-nav {
-    background-color: #e6e6e6;
-
-}
-
-.navbar-nav .nav-link {
-    color: #001489;
-}
-
 img {
     max-width: 100%;
 }
