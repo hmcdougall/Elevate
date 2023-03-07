@@ -1,25 +1,11 @@
-#mission img {
-    max-width: 90%;
-}
-
 #mission {
     padding-top: 5%;
-}
-
-.card {
-    white-space: normal;
-    background-color: #f7f6f6;
 }
 
 #mission p {
     text-align: left;
     width: 80%;
 }
-
-/* .pageContent {
-    background-image: linear-gradient(#dadada, #f7f7f7);
-    width: 100%;
-} */
 
 h2 {
     padding-bottom: 3%;
@@ -43,3 +29,11 @@ p {
     padding-bottom: 2%;
     font-size: 25px;
 }
+
+img {
+    max-width: 70%;
+}
+
+/* #highlight p {
+
+} */
