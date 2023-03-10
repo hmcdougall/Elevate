@@ -1,8 +1,44 @@
 .article {
     width: 80%;
-    text-align: left;
 }
 
 br {
     padding-top: 3em;
+}
+
+h1 {
+    color: #001489;
+    font-weight: bolder;
+}
+
+.spotlight {
+    background-color: #001489;
+    color: white;
+    width: 95%;
+    padding: 15px;
+}
+
+.spotlight h5 {
+    color: white;
+}
+
+#image1 {
+    float: right;
+    margin: 3%;
+    max-width: 35%;
+}
+
+#image2 {
+    float: left;
+    margin: 3%;
+    max-width: 30%;
+}
+
+#image3 {
+    margin: 3%;
+    max-width: 60%;
+}
+
+.article p {
+    text-align: justify;
 }

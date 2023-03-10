@@ -1,16 +1,6 @@
-.header {
-    background-color: #001489;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
 h2.head, h5.head {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-
-.header .navbar {
-    background-color: #001489;
 }
 
 img {
@@ -41,13 +31,14 @@ h2, h5, h4 {
     border-radius: 20px;
 }
 
-footer {
-    background-color: #f7f6f6;
+.header1 {
+    background-color: #001489;
     text-align: center;
-    color: #7a7a7a;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.header1 .navbar-nav .nav-link {
+    color: white;
 }
 
 .menu .navbar-nav {
@@ -63,13 +54,9 @@ footer {
     display: inline-block;
 }
 
-html {
+/* html {
     background-color: #f7f6f6;
-}
-
-body {
-    background-color: white;
-}
+} */
 
 .header2 {
     background-image: url("../Photos/SkateZoom.jpeg");
@@ -95,6 +82,15 @@ body {
 
 footer .navbar-nav .nav-link {
     color: #001489;
+}
+
+footer {
+    background-color: #f7f6f6;
+    text-align: center;
+    color: #7a7a7a;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 footer p {

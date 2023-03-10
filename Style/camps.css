@@ -4,5 +4,13 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
+}
+
+h4 {
+    padding-top: 10%;
+}
+
+#faqs {
+    max-width: 80%;
 }
