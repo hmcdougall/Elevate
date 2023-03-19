@@ -1,4 +1,5 @@
-h2.head, h5.head {
+h2.head,
+h5.head {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -11,18 +12,22 @@ img {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 550;
-    font-size: 48px;
+    font-size: 7.5vh;
 }
 
-h2, h5, h4 {
+h2, h5, h4, h1 {
     color: #001489;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 550;
+    font-weight: bold;
+    position: relative;
 }
 
 .section {
-    padding: 40px 10px;
+    padding: 1vh 1vh;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .btn-std {
@@ -54,22 +59,35 @@ h2, h5, h4 {
     display: inline-block;
 }
 
-/* html {
+html {
     background-color: #f7f6f6;
-} */
+}
 
-.header2 {
-    background-image: url("../Photos/SkateZoom.jpeg");
+.skateHeader::before {
+    content: "";
+    background-image: url("../Photos/Ice_skates_pic.jpg");
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     background-color: #c2ebf6;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
     background-size: cover;
-    padding-top: 1%;
+}
+
+.skateHeader {
+    position: relative;
+    width: 100%;
 }
 
 .header2 .statement {
     text-align: center;
     padding: 1% 12%;
     background-color: white;
-    font-size: 35px;
+    font-size: 5vh;
 }
 
 .header2 nav {
@@ -98,7 +116,10 @@ footer p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    padding-top: 0%;
+}
+
+footer img {
+    max-width: 15%;
 }
 
 .custom-toggler.navbar-toggler2 {
@@ -106,6 +127,5 @@ footer p {
 }
 
 .custom-toggler2 .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }

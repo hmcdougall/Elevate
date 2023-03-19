@@ -12,5 +12,9 @@ h4 {
 }
 
 #faqs {
-    max-width: 80%;
+    width: 80%;
+}
+
+.accordion-body {
+    text-align: left;
 }

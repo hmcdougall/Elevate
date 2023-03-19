@@ -1,5 +1,5 @@
 #mission {
-    padding-top: 5%;
+    padding-top: 4%;
 }
 
 #mission p {
@@ -8,7 +8,7 @@
 }
 
 h2 {
-    padding-bottom: 3%;
+    /* padding-bottom: 2%; */
     font-size: 45px;
 }
 
@@ -18,14 +18,14 @@ h3 {
     font-size: 35px;
 }
 
-p {
+#mission p {
     color: #001489;
     font-size: 17px;
     padding-top: 2%;
 }
 
 .section h5 {
-    font-weight: 500;
+    font-weight: bold;
     padding-bottom: 2%;
     font-size: 25px;
 }
