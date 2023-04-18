@@ -67,7 +67,7 @@ html {
 
 .skateHeader::before {
     content: "";
-    background-image: url("../Photos/Ice_skates_pic.jpg");
+    background-image: url("../Components/Photos/Ice_skates_pic.jpg");
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     background-color: #c2ebf6;
@@ -83,51 +83,4 @@ html {
 .skateHeader {
     position: relative;
     width: 100%;
-}
-
-.header2 .statement {
-    text-align: center;
-    padding: 1% 12%;
-    background-color: white;
-    font-size: 5vh;
-}
-
-.header2 nav {
-    background-color: #e6e6e6;
-}
-
-.header2 .navbar-nav .nav-link {
-    color: #001489;
-}
-
-footer .navbar-nav .nav-link {
-    color: #001489;
-}
-
-footer {
-    background-color: #f7f6f6;
-    text-align: center;
-    color: #7a7a7a;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-footer p {
-    color: #7a7a7a;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-footer img {
-    max-width: 15%;
-}
-
-.custom-toggler.navbar-toggler2 {
-    border-color: white;
-}
-
-.custom-toggler2 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
