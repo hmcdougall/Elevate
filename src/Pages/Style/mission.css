@@ -1,6 +1,9 @@
 #mission p {
     text-align: left;
     width: 80%;
+    color: #001489;
+    font-size: 17px;
+    padding-top: 2%;
 }
 
 h2 {
@@ -11,12 +14,6 @@ h3 {
     color: #001489;
     font-weight: 550;
     font-size: 35px;
-}
-
-#mission p {
-    color: #001489;
-    font-size: 17px;
-    padding-top: 2%;
 }
 
 .section h5 {
@@ -42,4 +39,8 @@ img {
         justify-content: center;
         align-items: center;
     }
+}
+
+.gradient{
+    background-image: linear-gradient(#dedede, white, #d2d7f8);
 }

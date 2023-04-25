@@ -20,8 +20,17 @@ function Team() {
                 <br />
             </div>
 
+            <div className="spotlight section">
+                <h6 style={{ color: "white" }}>
+                    The individuals behind it all. ELEVATE Synchronized Skating is composed of 
+                    passionate and driven student athletes who work year-round to make this organization 
+                    possible. They are the backbone of our organization and are dedicated to making our 
+                    mission a reality!
+                </h6>
+            </div>
+
             {/* team intros*/}
-            <div className="section">
+            <div className="section" style={{marginTop: "-10vh"}}>
                 <div className="row">
                     <div className="col">
                         <div className="section">
@@ -47,7 +56,7 @@ function Team() {
                                     alt="Brynn LaMear's Headshot" />
                                 <div className="card-body">
                                     <h5 className="card-title">Brynn LaMear</h5>
-                                    <p className="card-text">Brynn LaMear is a Co-Founder of ELEVATE Synchronized Skating and is a
+                                    <p className="card-text">Brynn LaMear is a Founder of ELEVATE Synchronized Skating and is a
                                         first-year member of Miami University's Senior Varsity Synchronized Skating team. Brynn
                                         skated with Miami University's Collegiate team for two seasons, taking home the national
                                         championship title in 2022. Growing up, Brynn skated for Saint Louis Synergy where she

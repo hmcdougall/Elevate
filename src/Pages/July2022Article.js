@@ -34,18 +34,6 @@ function July2022Article() {
                             <img id="image1" src={Coaches}
                                 alt="The coaches smile, standing in a semicircle on the ice" />
                         </div>
-                        <p>As 2022 comes to a close, it is only right to reflect on the first annual ELEVATE
-                            Synchronized
-                            Skating
-                            Camp.
-                            Founded by Babson College student and Haydenette Laura Nicula, ELEVATE brought together
-                            hard-working
-                            athletes and world-renowned coaches to create a lasting impact on the synchronized skating
-                            community
-                            of
-                            the
-                            greater St. Louis area.
-                        </p>
                         <p>ELEVATE welcomed athletes of all ages and skill levels by dividing skaters into two groups to
                             better
                             accommodate each individual's strengths and goals. Group White and Group Pink attended both

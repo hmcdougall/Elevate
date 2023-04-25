@@ -1,7 +1,7 @@
 #news {
     width: 95%;
     background-image: linear-gradient(#f7f7f7, #d9d9d9);
-    height:min-content;
+    height: min-content;
 }
 
 .card {
@@ -36,10 +36,18 @@
     .dedication h4 {
         font-size: 3.5vw;
     }
+
+    .section h2 {
+        font-size: 3.2vw;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .dedication h4 {
+        font-size: x-large;
+    }
+
+    .section h2 {
         font-size: xx-large;
     }
 }
@@ -57,4 +65,42 @@
 
 .col {
     padding-bottom: 2%;
+}
+
+.graphic div {
+    display: inline-block;
+}
+
+.col-outside {
+    /* width: 25vw; */
+    /* min-height: 50%; */
+    width: 30%;
+}
+
+.col-inside {
+    /* width: 35%; */
+    /* min-height: 50%; */
+    width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+    .col-inside {
+        width: 70%;
+    }
+}
+
+.col-outside img {
+    width: 100%;
+    border-radius: 0px;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-inside img {
+    border-radius: 0px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px;
 }

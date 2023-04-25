@@ -5,3 +5,14 @@
 .card img {
     min-width: 100%;
 }
+
+.spotlight {
+    padding-top: 5vh;
+    color: #001489;
+}
+
+.spotlight h6 {
+    width: 95%;
+    font-weight: normal;
+    padding-top: 2%;
+  }

@@ -11,6 +11,11 @@ h4 {
     padding: 5% 5%;
 }
 
+#highlight h3 {
+    padding: 2% 2%;
+    font-size: 2.5vw;
+}
+
 #faqs {
     width: 80%;
 }
@@ -31,4 +36,22 @@ h4 {
     background-color: #f7f6f6;
     width: 100%;
     padding: 10px 0px;
+}
+
+.col-md-6 h6 {
+    color: #001489;
+}
+
+#upcoming {
+    background-image: linear-gradient(180deg, #ffff, #d2d7f8);
+}
+
+.list {
+    float: left;
+}
+
+@media screen and (max-width: 801px) {
+    #highlight h3 {
+        font-size: x-large;
+    }
 }

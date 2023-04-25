@@ -1,5 +1,4 @@
-h2.head,
-h5.head {
+h2.head, h5.head {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
@@ -14,10 +13,7 @@ img {
     font-weight: 550;
 }
 
-h2,
-h5,
-h4,
-h1 {
+h2, h5, h4, h1 {
     color: #001489;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -25,7 +21,7 @@ h1 {
 }
 
 .section {
-    padding: 1vh 1vh;
+    padding: 1vh 1vh 1vh 1vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -61,9 +57,9 @@ h1 {
     display: inline-block;
 }
 
-html {
+/* html {
     background-color: #f7f6f6;
-}
+} */
 
 .skateHeader::before {
     content: "";
@@ -83,4 +79,9 @@ html {
 .skateHeader {
     position: relative;
     width: 100%;
+}
+
+
+.nav-link {
+    color: white;
 }
