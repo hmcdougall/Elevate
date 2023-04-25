@@ -43,7 +43,7 @@ function Camps() {
                         <div className="col-md-6">
                             <h4>Skaters can expect each day to be filled with on-ice training, off-ice classes, and
                                 team building activities with Team USA athletes. Skaters will also have the
-                                opportunity participate in Q&A sessions and learn from some of the best in the sport!</h4>
+                                opportunity to participate in Q&A sessions and learn from some of the best in the sport!</h4>
                             {/* <button type="button" className="btn btn-std">REGISTER HERE</button> */}
                         </div>
                     </div>

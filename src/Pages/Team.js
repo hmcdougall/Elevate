@@ -30,7 +30,7 @@ function Team() {
             </div>
 
             {/* team intros*/}
-            <div className="section" style={{marginTop: "-10vh"}}>
+            <div className="section" style={{marginTop: "-7vh"}}>
                 <div className="row">
                     <div className="col">
                         <div className="section">
