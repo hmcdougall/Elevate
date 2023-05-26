@@ -16,13 +16,11 @@ function Mission() {
                             <h4>To inspire, empower, and educate synchronized figure skaters by providing them with
                                 tools, knowledge, and support to achieve their goals and reach their full potential.</h4>
                         </div>
-                        <br />
                     </div>
                 </div>
 
                 <div className='gradient'>
-                    {/* mission info */}
-                    <div className="container section" id="mission">
+                    <div className="container section gradient" id="mission">
                         <div className="row align-items-start">
                             <div id="highlight">
                                 <div className="col-md-6">
@@ -73,6 +71,7 @@ function Mission() {
                             </div>
                         </div>
                     </div>
+                    <div className='sectionSpacer'> </div>
                 </div>
                 <Footer />
         </div >

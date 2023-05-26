@@ -11,6 +11,10 @@
     font-weight: bolder;
     padding: 2vh 1vh;
   }
+
+  .skateHeader h1 {
+    padding: 1% 8%;
+  }
   
   .spotlight h6 {
     background-color: #001489;

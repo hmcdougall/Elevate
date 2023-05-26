@@ -1,10 +1,10 @@
-import Header2 from "./Components/Header2";
-import Footer from "./Components/Footer";
-import './Style/site.css';
-import './Style/article.css';
-import Adam from "./Photos/Adam.png";
-import Coaches from "./Photos/coaches.jpg";
-import Group from "./Photos/groupphoto.jpg";
+import Header2 from "../Components/Header2";
+import Footer from "../Components/Footer";
+import '../Style/site.css';
+import '../Style/article.css';
+import Adam from "../Photos/Adam.png";
+import Coaches from "../Photos/coaches.jpg";
+import Group from "../Photos/groupphoto.jpg";
 
 function July2022Article() {
     return (

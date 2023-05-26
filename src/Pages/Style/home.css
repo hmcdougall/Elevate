@@ -4,6 +4,10 @@
     height: min-content;
 }
 
+#news .col {
+    padding: 1% 2%;
+}
+
 .card {
     white-space: normal;
 }

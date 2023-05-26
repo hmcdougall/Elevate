@@ -30,10 +30,10 @@ function Team() {
             </div>
 
             {/* team intros*/}
-            <div className="section" style={{marginTop: "-7vh"}}>
-                <div className="row">
-                    <div className="col">
-                        <div className="section">
+            <div className="section" id="teamLayout">
+                {/* <div className="row"> */}
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Laura} className="card-img-top"
                                     alt="Laura Nicula's Headshot" />
@@ -45,12 +45,13 @@ function Team() {
                                         level synchronized skating teams. Her favorite synchro memory is competing the Long
                                         Program at the 2022 World Championships in Hamilton, Canada. When she's on the ice,
                                         Laura loves coaching skating skills and drills!</p>
-                                </div>
+                                {/* </div> */}
                             </div>
-                        </div>
+                        {/* </div> */}
                     </div>
-                    <div className="col">
-                        <div className="section">
+
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Brynn} className="card-img-top"
                                     alt="Brynn LaMear's Headshot" />
@@ -63,12 +64,13 @@ function Team() {
                                         discovered her love for synchro and coaching. Her favorite element is the pivot block!
                                         Brynn's favorite synchro memory is skating the free program at her first international
                                         competition in Salzburg, Austria. </p>
-                                </div>
+                                {/* </div> */}
                             </div>
-                        </div>
+                        {/* </div> */}
                     </div>
-                    <div className="col">
-                        <div className="section">
+
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Maddie} className="card-img-top"
                                     alt="Maddie Beery's Headshot" />
@@ -87,10 +89,11 @@ function Team() {
                                         elements to teach are Moves in the Field, especially spirals!</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="section">
+                        {/* </div> */}
+                    {/* </div> */}
+
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Kyan} className="card-img-top"
                                     alt="Kyan LaMear's Headshot" />
@@ -104,10 +107,11 @@ function Team() {
                                         two guinea pigs!</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="section">
+                        {/* </div> */}
+                    {/* </div> */}
+
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Hannah} className="card-img-top"
                                     alt="Hannah McDougall's headshot" />
@@ -121,10 +125,11 @@ function Team() {
                                         coaches Team Precision Edge Pre-Juvenile.</p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="section">
+                        {/* </div> */}
+                    {/* </div> */}
+
+                    {/* <div className="col"> */}
+                        {/* <div className="section"> */}
                             <div className="card">
                                 <img src={Haley} className="card-img-top"
                                     alt="Haley Weilbacher's headshot" />
@@ -140,9 +145,9 @@ function Team() {
                                         Championships in Colorado Springs, CO. </p>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        {/* </div> */}
+                    {/* </div> */}
+                {/* </div> */}
             </div>
 
             <Footer />

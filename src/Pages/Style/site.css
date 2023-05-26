@@ -57,10 +57,6 @@ h2, h5, h4, h1 {
     display: inline-block;
 }
 
-/* html {
-    background-color: #f7f6f6;
-} */
-
 .skateHeader::before {
     content: "";
     background-image: url("../Components/Photos/Ice_skates_pic.jpg");
@@ -81,7 +77,10 @@ h2, h5, h4, h1 {
     width: 100%;
 }
 
-
 .nav-link {
     color: white;
+}
+
+.sectionSpacer {
+    padding-top: 5%;
 }

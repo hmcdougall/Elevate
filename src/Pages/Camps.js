@@ -27,14 +27,12 @@ function Camps() {
                 </div>
             </div>
 
-            <br />
-        <hr />
+            <div className='sectionSpacer'> </div>
+
             <div className="section" id="upcoming">
                 <br />
-                <h2> Upcoming Camps</h2>
-                <br />
                 <div>
-                    <h3>What to Expect</h3>
+                    <h3>&mdash; What to Expect &mdash;</h3>
                     <br />
                     <div id="highlight">
                         <div className="col-md-6">
@@ -44,10 +42,11 @@ function Camps() {
                             <h4>Skaters can expect each day to be filled with on-ice training, off-ice classes, and
                                 team building activities with Team USA athletes. Skaters will also have the
                                 opportunity to participate in Q&A sessions and learn from some of the best in the sport!</h4>
-                            {/* <button type="button" className="btn btn-std">REGISTER HERE</button> */}
                         </div>
                     </div>
-                    <hr />
+
+                    <div className='sectionSpacer'> </div>
+
                     <h3>Class Topics Will include</h3>
                     <div id='highlight'>
                         <div className='col-md-6'>
@@ -63,10 +62,9 @@ function Camps() {
                             <h6>Mental Training and Goal Setting</h6>
                         </div>
                     </div>
+                    <div className='sectionSpacer'> </div>
                 </div>
             </div>
-
-            <br />
 
             {/* FAQS */}
             <div className="section">

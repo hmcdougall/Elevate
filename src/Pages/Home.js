@@ -1,10 +1,10 @@
-import MainHeader from "./Components/MainHeader";
-import Footer from "./Components/Footer";
-import './Style/site.css';
-import './Style/home.css';
-import groupPhoto from "./Photos/groupphoto.jpg";
-// import circle from './Photos/Circle.jpg';
-import save from './Photos/SavetheDate.jpg';
+import MainHeader from "./Components/MainHeader"
+import Footer from "./Components/Footer"
+import './Style/site.css'
+import './Style/home.css'
+import groupPhoto from "./Photos/groupphoto.jpg"
+import save from './Photos/SavetheDate.jpg'
+import elite12Header from "./Photos/SelectNationalMedal.jpg"
 
 
 function Home() {
@@ -42,7 +42,7 @@ function Home() {
             <div className="section">
                 <div id="news">
                     <h4 style={{ paddingBottom: "0%" }}>&mdash; Stay in the Loop &mdash;</h4>
-                    <h6>Check out our article!</h6>
+                    <h6>Check out our articles!</h6>
                     <div className="col">
                         <div className="card" style={{ width: "22rem" }}>
                             <img src={groupPhoto} className="card-img-top"
@@ -53,6 +53,19 @@ function Home() {
                                     reflect on our first ELEVATE Synchronized Skating Camp.
                                 </p>
                                 <a href="articles/july2022camp" className="btn btn-std">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col">
+                        <div className="card" style={{ width: "22rem" }}>
+                            <img src={elite12Header} className="card-img-top"
+                                alt="All camp skaters gather behind coaches" />
+                            <div className="card-body">
+                                <h5 className="card-title">Reflecting on Elite 12</h5>
+                                <p className="card-text">Haley Weilbacher reflects on her season skating for Hayden Select and the future of synchronized skating.
+                                </p>
+                                <a href="articles/elite12" className="btn btn-std">Read More</a>
                             </div>
                         </div>
                     </div>

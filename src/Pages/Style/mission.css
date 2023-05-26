@@ -41,6 +41,10 @@ img {
     }
 }
 
+.statement h4 {
+    padding: 2% 6%;
+}
+
 .gradient{
     background-image: linear-gradient(#dedede, white, #d2d7f8);
 }

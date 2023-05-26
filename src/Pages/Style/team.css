@@ -16,3 +16,15 @@
     font-weight: normal;
     padding-top: 2%;
   }
+
+  .card {
+    min-width: 22rem;
+    margin: 2%;
+  }
+
+  #teamLayout {
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
